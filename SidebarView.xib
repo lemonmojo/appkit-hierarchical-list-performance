@@ -52,7 +52,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <imageCell key="cell" refusesFirstResponder="YES" imageScaling="proportionallyDown" image="NSActionTemplate" id="PsX-UJ-qUy"/>
                                                     </imageView>
-                                                    <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YT7-wc-NkB">
+                                                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YT7-wc-NkB">
                                                         <rect key="frame" x="25" y="0.0" width="113" height="17"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="dPk-uI-wj8">
@@ -84,9 +84,9 @@
                     </scroller>
                 </scrollView>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z3u-ne-Bdw">
-                    <rect key="frame" x="42" y="176" width="78" height="32"/>
+                    <rect key="frame" x="33" y="176" width="95" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="push" title="Shuffle" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="M7E-QL-gUH">
+                    <buttonCell key="cell" type="push" title="Shuffle" bezelStyle="rounded" image="shuffle.circle" catalog="system" imagePosition="leading" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="M7E-QL-gUH">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -100,5 +100,6 @@
     </objects>
     <resources>
         <image name="NSActionTemplate" width="20" height="20"/>
+        <image name="shuffle.circle" catalog="system" width="15" height="15"/>
     </resources>
 </document>
